@@ -68,6 +68,8 @@ h1, h2, h3, h4, h5 {
 
 .container {
  
+ width: 1000px;
+ margin: 0 auto;
   
 }
 
@@ -77,11 +79,17 @@ h1, h2, h3, h4, h5 {
 }
  
 .innovmain {
-  
+  font-size: 60px;
 }
 
 button {
-  
+	
+	
+   width: 125px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid black;
+  background: white;
   
 }
 
@@ -104,11 +112,19 @@ button {
 }
 
 .leftcont {
+	
+  display: inline-block;
+  width: 49%;
+  padding: 5% 15%;
+  text-align: center;
   
 }
 
 .rightcont {
-  
+   display: inline-block;
+  width: 49%;
+  text-align: center;
+  margin-top: 50px;
 }
 
 address {
