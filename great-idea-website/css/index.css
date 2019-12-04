@@ -145,3 +145,8 @@ body {
 
 }
 
+h1, h2 {
+	font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
