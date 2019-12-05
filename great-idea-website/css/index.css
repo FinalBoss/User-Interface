@@ -12,6 +12,7 @@
  
  width: 1200px;
  margin: 0 auto;
+ padding: 0;
   
 }
 
@@ -19,20 +20,62 @@
  width: 75%;
   display: inline-block;
   word-spacing: 90px;
+ margin: 0 auto;
+ padding: 0;
   
   
+}
+
+a {
+	
+	text-decoration: none;
+	color: grey;
+	font-size: 20px;
+	padding: 0;
+	
+}
+
+header {
+	
+	margin: 0 auto;
+	padding: 20px;
+	
 }
 
 
  
 #headsho {
-  font-size: 60px;
+  font-size: 100px;
+  text-align: center;
+margin-right: 200px;
+}
+
+#headsho, button {
+	
+	margin-left: 0px;
+  display: inline-block;
+	
+}
+
+.contimg {
+	
+	width: 100%;
+	margin-right: 100px;
+}
+
+.innovmain {
+
+display: inline-block;
+margin: 0;
+width: 1200px;	
+
 }
 
 button {
 	
 	
    width: 125px;
+   margin-bottom: 400px;
   padding: 5px;
   font-size: 14px;
   border: 1px solid black;
@@ -42,10 +85,12 @@ button {
 
 .logo {
   
-  width: 30%;
+  width: 32%;
   display: inline-block;
-  margin-left: 920px;
-  margin-bottom: 100px;
+  margin-left: 900px;
+  margin-bottom: 110px;
+  padding-right: 10px;
+  padding-left: 20px;
   
   
 }
@@ -56,10 +101,11 @@ button {
   
 }
 
-.topcont section {
+.topcont article {
 
  width: 49%;
   display: inline-block;
+  margin: 5px;
 
 }
 
@@ -73,26 +119,28 @@ button {
   
 }
 
-.bottomcont section {
+.bottomcont article {
 	width: 32%;
   display: inline-block;
+  margin: 5px;
 	
 }
 
-.leftcont {
+#leftcont {
 	
   display: inline-block;
-  width: 49%;
-  padding: 5% 15%;
+  width: 30%;
   text-align: center;
+  margin-left: 155px;
+  padding-top: 0;
   
 }
 
-.rightcont {
+#rightcont {
    display: inline-block;
-  width: 49%;
-  text-align: center;
-  margin-top: 50px;
+  width: 70%;
+  margin-left: 500px;
+
 }
 
 
@@ -111,8 +159,13 @@ h1, h2 {
 }
 
 .middle-img {
-	 display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
+  display: inline-block;
+  width: 100%;
+}
+
+#copyhuh {
+	
+	text-align: center;
+	
 }
