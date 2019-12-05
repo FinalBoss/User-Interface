@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
-  border: 1px solid grey;
 }
 
 /* Your code starts here! */
@@ -65,8 +64,6 @@ margin-right: 200px;
 
 .innovmain {
 
-display: inline-block;
-margin: 0;
 width: 1200px;	
 
 }
@@ -74,7 +71,7 @@ width: 1200px;
 button {
 	
 	
-   width: 125px;
+   width: 155px;
    margin-bottom: 400px;
   padding: 5px;
   font-size: 14px;
@@ -98,14 +95,14 @@ button {
 .topcont {
 	
 	border-top: 5px solid black;
-  
 }
 
 .topcont article {
 
- width: 49%;
+ width: 44%;
   display: inline-block;
-  margin: 5px;
+  padding-right: 1px;
+  margin-left: 50px; 
 
 }
 
@@ -120,9 +117,11 @@ button {
 }
 
 .bottomcont article {
-	width: 32%;
+	width: 28%;
   display: inline-block;
-  margin: 5px;
+  padding-right: 10px;
+ 
+  margin-left: 50px; 
 	
 }
 
@@ -131,15 +130,17 @@ button {
   display: inline-block;
   width: 30%;
   text-align: center;
-  margin-left: 155px;
+  margin-left: 75px;
   padding-top: 0;
+  
   
 }
 
 #rightcont {
-   display: inline-block;
-  width: 70%;
-  margin-left: 500px;
+	
+	display: inline-block;
+  width: 50%;
+  margin-left: 150px;
 
 }
 
@@ -160,8 +161,10 @@ h1, h2 {
 
 .middle-img {
 
-  display: inline-block;
-  width: 100%;
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #copyhuh {
