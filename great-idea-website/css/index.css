@@ -1,25 +1,37 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   max-width: 100%;
+  border: 1px solid grey;
+
 }
 
 /* Your code starts here! */
 
+body {
+	
+	
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+h1, h2 {
+	font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+}
+
 .contain {
  
- width: 1200px;
- margin: 0 auto;
+ width: 50%;
  padding: 0;
-  
+ display: block;
+ 
 }
 
 .navi {
- width: 75%;
   display: inline-block;
   word-spacing: 90px;
- margin: 0 auto;
  padding: 0;
   
   
@@ -30,41 +42,45 @@ a {
 	text-decoration: none;
 	color: grey;
 	font-size: 20px;
-	padding: 0;
+  display: inline;
 	
 }
 
 header {
 	
-	margin: 0 auto;
-	padding: 20px;
+	margin: 0;
+  padding: 10px;
+  display: block;
 	
 }
 
 
  
 #headsho {
+
+  margin: 0 auto;
   font-size: 100px;
   text-align: center;
-margin-right: 200px;
 }
 
 #headsho, button {
 	
-	margin-left: 0px;
+	margin: 0% auto;
   display: inline-block;
 	
 }
 
 .contimg {
 	
-	width: 100%;
-	margin-right: 100px;
+  width: 80%;
+  margin-left: 200px; 
+  
 }
 
 .innovmain {
 
-width: 1200px;	
+width: 100%;	
+margin: 0 auto;
 
 }
 
@@ -72,7 +88,6 @@ button {
 	
 	
    width: 155px;
-   margin-bottom: 400px;
   padding: 5px;
   font-size: 14px;
   border: 1px solid black;
@@ -140,24 +155,12 @@ button {
 	
 	display: inline-block;
   width: 50%;
-  margin-left: 150px;
 
 }
 
 
 
-body {
-	
-	
-	font-family: "Titillium Web", sans-serif;
 
-}
-
-h1, h2 {
-	font-family: "Bangers", cursive;
-  letter-spacing: 1px;
-  margin-bottom: 15px;
-}
 
 .middle-img {
 
