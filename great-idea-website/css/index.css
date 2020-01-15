@@ -25,6 +25,8 @@ h1, h2 {
  width: 50%;
  padding: 0;
  display: block;
+ /* position: absolute;
+ left: 25%; */
  
 }
 
@@ -46,11 +48,13 @@ a {
 }
 
 header {
-	
+  
 	margin: 0;
   padding: 0px;
   display: block;
-	
+  /* position: fixed;
+  background-color: azure; */
+  	
 }
 
 
@@ -70,17 +74,22 @@ header {
 }
 
 .contimg {
-	
+  
+  
   width: 100%;
   margin-left: 200px; 
+  position: relative;
+  /* z-index: -1; */
   
 }
 
 .innovmain {
 
+  display: block;
 width: 100%;	
-margin: 0 auto;
-padding: 3%
+/* margin: 15% auto; */
+padding: 3%;
+
 
 }
 
