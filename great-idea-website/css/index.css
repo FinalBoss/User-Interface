@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 0;
   max-width: 100%;
-  border: 1px solid grey;
 
 }
 
@@ -49,7 +48,7 @@ a {
 header {
 	
 	margin: 0;
-  padding: 10px;
+  padding: 0px;
   display: block;
 	
 }
@@ -72,7 +71,7 @@ header {
 
 .contimg {
 	
-  width: 80%;
+  width: 100%;
   margin-left: 200px; 
   
 }
@@ -81,6 +80,7 @@ header {
 
 width: 100%;	
 margin: 0 auto;
+padding: 3%
 
 }
 
@@ -109,15 +109,17 @@ button {
 
 .topcont {
 	
-	border-top: 5px solid black;
+  border-top: 5px solid black;
+  margin: 0 auto;
+
 }
 
 .topcont article {
 
- width: 44%;
+ width: 45%;
+ padding: 1%;
+
   display: inline-block;
-  padding-right: 1px;
-  margin-left: 50px; 
 
 }
 
@@ -132,11 +134,9 @@ button {
 }
 
 .bottomcont article {
-	width: 28%;
+	width: 33%;
   display: inline-block;
-  padding-right: 10px;
  
-  margin-left: 50px; 
 	
 }
 
@@ -161,11 +161,16 @@ button {
 
 
 
+div .middle-img {
+
+  padding: 1%
+
+}
 
 .middle-img {
 
   display: block;
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -174,4 +179,11 @@ button {
 	
 	text-align: center;
 	
+}
+
+footer {
+ 
+
+  margin: 1% 5% 4% auto;
+  padding 5%;
 }
