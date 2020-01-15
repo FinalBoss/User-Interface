@@ -1,66 +1,274 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
-}
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+body {
+	
+	
+	font-family: "Titillium Web", sans-serif;
+
+}
+
+h1, h2 {
+	font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+}
+
+p {
+
+  font-family: 'Gelasio', serif;
+}
+
+.contain {
+ 
+ width: 50%;
+ padding: 0;
+ display: block;
+ /* position: absolute;
+ left: 25%; */
+ 
+}
+
+.navi {
+  display: inline-block;
+  word-spacing: 90px;
+ padding: 0;
+  
+  
+}
+
+a {
+	
+	text-decoration: none;
+	color: grey;
+	font-size: 20px;
+  display: inline;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+	
+}
+
+@keyframes example {
+
+  from {color: white;}
+  to {color: grey;}
+
+}
+
+header {
+  
+	margin: 0;
+  padding: 0px;
+  display: block;
+  /* position: fixed;
+  background-color: green; */
+
+
+  	
+}
+
+
+ 
+#headsho {
+
+  margin: 0 auto;
+  font-size: 100px;
+  text-align: center;
+}
+
+#headsho, button {
+	
+	margin: 0% auto;
+  display: inline-block;
+	
+}
+
+div .contimg {
+  
+  
+  width: 450px;
+  height: 450px;
+  background-repeat: no-repeat;
+  margin-left: 200px; 
+  position: relative;
+  background-image: url(/great-idea-website/img/header-img.png);
+  /* z-index: -1; */
+  
+}
+
+.innovmain {
+
+  display: block;
+width: 100%;	
+/* margin: 15% auto; */
+padding: 3%;
+
+
+}
+
+button {
+	
+	
+   width: 155px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid black;
+  background: white;
+  
+}
+
+div .logo {
+  
+  width: 250px;
+  height: 50px;
+  display: inline-block;
+  /* background-color: aqua; */
+  background-image: url('/great-idea-website/img/logo.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+position: absolute;
+margin-left: 2%;
+
+  
+  
+}
+
+
+
+.topcont {
+	
+  border-top: 5px solid black;
+  margin: 0 auto;
+
+}
+
+.topcont article {
+
+ width: 45%;
+ padding: 1%;
+
+  display: inline-block;
+
+}
+
+
+
+
+
+.bottomcont {
+  
+    border-bottom: 5px solid black;
+  
+}
+
+.bottomcont article {
+	width: 33%;
+  display: inline-block;
+ 
+	
+}
+
+#leftcont {
+	
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin-left: 75px;
+  padding-top: 0;
+  
+  
+}
+
+#rightcont {
+	
+	display: inline-block;
+  width: 50%;
+
+}
+
+
+
+
+div .middle-img {
+
+  width: 1200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(/great-idea-website/img/mid-page-accent.jpg);
+  background-position: center;
+
+
+}
+
+.middle-img {
+
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#copyhuh {
+	
+	text-align: center;
+	
+}
+
+footer {
+ 
+
+  margin: 1% 5% 4% auto;
+}
+
+
+/* Product.html */
+
+
+.innovmain2 {
+
+  width: 1200px;
+  height: 500px;
+  background-repeat: repeat-x;
+  z-index: -1;
+
+  background-position-y: bottom;
+  background-image: url('/great-idea-website/img/Screen-Shot-2018-05-10-at-10.39.55-PM-1024x553.jpg');
+
+}
+
+#gravitykat {
+
+
+  text-align: center;
+  font-size: 10rem;
+  text-shadow: aqua 2px 2px ;
+
+  position: relative;
+  top: 10rem;
+  z-index: 0;
+  opacity: 75%;
+
+}
+
+.innovarticle {
+
+  margin: 3rem;
+  position: relative;
+  bottom: 10rem;
+
+
+}
+
+#kattwirl {
+
+  margin: 2rem;
+
+}
